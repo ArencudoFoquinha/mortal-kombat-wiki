@@ -1,0 +1,14 @@
+body{
+	min-height: 100vh;
+	display: grid;
+	grid-template-columns: 20% 1fr;
+	grid-template-rows: auto 1fr auto;
+	grid-template-areas:
+	"navbar navbar"
+	"sidebar main"
+	"sidebar footer"
+
+}
+nav{
+	grid-area: navbar;
+}
